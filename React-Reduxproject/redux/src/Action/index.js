@@ -4,4 +4,9 @@ export function increase(number) {
         payload: number
     }
 }
-// export function decrease()
+export function decrease(number){
+    return{
+        type:'DECREASE',
+        payload:number
+    }
+}
